@@ -4,28 +4,28 @@
 from locust import HttpLocust, TaskSet, task
 import json
 
-with open('./assignAgentData.json') as assignAgent:
+with open('./vender/assignAgentData.json') as assignAgent:
     assignAgentData = json.load(assignAgent)
 
-with open('./finalQuotationData.json') as finalQuotation:
+with open('./vender/finalQuotationData.json') as finalQuotation:
     finalQuotationData = json.load(finalQuotation)
 
-with open('./createPaData.json') as createPa:
+with open('./vender/createPaData.json') as createPa:
     createPaData = json.load(createPa)
 
-with open('./createPsData.json') as createPs:
+with open('./vender/createPsData.json') as createPs:
     createPsData = json.load(createPs)
 
-with open('./createPfcData.json') as createPfc:
+with open('./vender/createPfcData.json') as createPfc:
     createPfcData = json.load(createPfc)
 
-with open('./submitEsubData.json') as submitEsub:
+with open('./vender/submitEsubData.json') as submitEsub:
     submitEsubData = json.load(submitEsub)
 
-with open('./addmailData.json') as addmail:
+with open('./vender/addmailData.json') as addmail:
     addmailData = json.load(addmail)
 
-with open('./finalComputeAllData.json') as finalComputeAll:
+with open('./vender/finalComputeAllData.json') as finalComputeAll:
     finalComputeAllData = json.load(finalComputeAll)
 
 
@@ -90,7 +90,7 @@ def finalComputeAll(l):
 def uploadImage(self):
     response = self.client.get("/uploadImage")
     csrftoken = response.cookies['csrftoken']
-    attach = open('./img.jpg', 'rb')
+    attach = open('./vender/test.jpg', 'rb')
 
     r = self.client.post("/uploadImage", data={
         'csrfmiddlewaretoken': csrftoken,
