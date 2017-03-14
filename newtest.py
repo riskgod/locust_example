@@ -29,15 +29,21 @@ with open('./vender/finalComputeAllData.json') as finalComputeAll:
     finalComputeAllData = json.load(finalComputeAll)
 
 
-def qp(l):
-    l.client.get("qp")
+def webPageLoad(l):
+    r = l.client.get("")
+    if json.loads((r.content))["result"] != 200:
+        r.failure("Got wrong response:"+r.content)
 
 def getRandomAndRSAPublicKey(l):
-    l.client.get("getRandomAndRSAPublicKey")
+    r = l.client.get("getRandomAndRSAPublicKey")
+    if json.loads((r.content))["result"] != 200:
+        r.failure("Got wrong response:"+r.content)
 
 def quotation(l):
-    l.client.post("quotation", {"reqType":"PS", "occupationCode":"", "residencyCode":"1", "age":"1"})
-
+    r = l.client.post("quotation", {"reqType":"PS", "occupationCode":"", "residencyCode":"1", "age":"1"})
+    if json.loads((r.content))["result"] != 200:
+        r.failure("Got wrong response:"+r.content)
+        
 def assignAgent(l):
     l.client.post("assignAgent", assignAgentData)
 
@@ -86,25 +92,15 @@ def makepayment(l):
 def finalComputeAll(l):
     l.client.post("finalComputeAll", finalComputeAllData)    
 
-@task
-def uploadImage(self):
-    response = self.client.get("uploadImage")
-    csrftoken = response.cookies['csrftoken']
-    attach = open('./vender/test.jpg', 'rb')
-
-    r = self.client.post("uploadImage", data={
-        'csrfmiddlewaretoken': csrftoken,
-        'password': smart_str(u'wkefjgui'),
-        'payload': smart_str(u'kjsdgfljdsh'),
-        'commit': smart_str(u'Вкрапить / Embed'),
-         }, files={'docfile': attach})
+def uploadImage(l):
+    l.client.post("uploadImage", data={'docfile': open('./vender/test.jpg', 'rb')})
 
 
 class UserBehavior(TaskSet):
-    tasks = {qp: 1, getRandomAndRSAPublicKey: 1, quotation: 1, assignAgent: 1, finalQuotation: 1, createPa: 1, createPs: 1, createPfc: 1, submitEsub: 1, computeAll: 1, fetchAppData: 1, occupationList: 1, dropdowns: 1, financials: 1, addmail: 1, postalcode: 1}
+    tasks = {webPageLoad: 1, getRandomAndRSAPublicKey: 1, quotation: 1, assignAgent: 1, finalQuotation: 1, createPa: 1, createPs: 1, createPfc: 1, submitEsub: 1, computeAll: 1, fetchAppData: 1, occupationList: 1, dropdowns: 1, financials: 1, addmail: 1, postalcode: 1, uploadImage: 1}
 
 
 class WebsiteUser(HttpLocust):
     task_set = UserBehavior
     min_wait = 5000
-    max_wait = 9000
+    max_wait = 30000
