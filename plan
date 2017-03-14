@@ -1,0 +1,22 @@
+测试计划: 
+testing plan
+测试21个API，包括一个主页面，一个img 上传页面
+we will test 21 apis, include one main page, and one upload page
+21 个 API 的权重为 等值权重。
+21 pages will Equivalent weight
+测试计划有 开始的50人到100人，200等 以此累加 分别到1000 来查看服务器的丢包率， 什么时候可以服务器挂掉
+The beginning of the 50 to 100 people, 200 and so on to the cumulative 1000 to see the server packet loss rate, when the server can hang up
+如果 到1000 服务器没有挂掉，那么就以1500，2000，2500 往上累加。
+If the server does not hang up to 1000, then to 1500,2000,2500 up to accumulate.
+如果在某个区间内挂掉， 那么就取中间值依次测试，知道取到误差50以内的值为止。
+If you hang in a range, then take the middle of the value of the test, to know the error within the value of 50 so far.
+
+We have seven indicators:
+#requests
+#fails 
+#Median  
+#Average 
+#Min 
+#Max 
+#Content Size  
+#reqs/sec
