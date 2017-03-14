@@ -1,0 +1,166 @@
+{
+  "yearlyPremium" : "6,030.60",
+  "name" : "97506a4ef25a692245b5c11c276beef6e1a5015CB6175451BF2f531fe563fc436aba877d04b8de0af31b7951f454ca3ae31194073a6756454e8770cedac0c2d5d725c19b68490dc6182ca667543a219a73443c5adf44a20f63774d9c7f44e67aabb7af0e7a5a46a918b4cc1a2fb0d6e9137ab14c6655026057b98352d30ef0a7e8f941413c95d1b8",
+  "maritalStatus" : "Single",
+  "gender" : "Male",
+  "dob" : "10 Jan 1986",
+  "nric" : "357dfcb16984b204e0417c18a9f3480a7265015CB6175451BF2f39af0655a360119d214c3c0b752ba030e965e8295a867af74a2abc5997666512f529dc723d184cfd6914b31b92a5d3ccebf2449e26bc1d435eafaffa9a58513b584bcee22cad4558f904db5548a953b69c2ddfc5f18c1454e67cfdc9d4a5ee3abf7d90be294b28bad7fdeb69839e",
+  "nationality" : "Singaporean",
+  "countryOfBirth" : "Singapore",
+  "residence" : "Singaporean",
+  "address" : "5342720b217c94cecaa473f8a601acb37935015CB6175451BF29a7239e6c2fbd48bf3351ae6253a75fceb8207109e3cee7b70b0d24d2a7fc5bd79fb0674657a35b6257c240678b90c5d17b886e9f69b7f1fe593ecef49a69aa491785e4bdcddbadc3ffb5b094e32a64371b31e334434dc084c68c0c191e7257d0cc680a98e44bdc2ba4952db6d739",
+  "billingAddress" : "878f8feeca906d88a12d2562f96ac0a18835015CB6175451BF261eed8ac9dec135364c1fd80fee90c58486b8f8c9f991959df1b77e7d82d02cd4e93272f9902b7d48fea3a34c187185bd4e1823e0e1032e72c78accfc1c92835fa82a7adaac46c2d47279ad528297e211f07ad1bc93fe8c16271b1176fcfa3398462fb9f421c081c257950e59d79c",
+  "mobile" : "96220579bc6649315cedc2ad16ec4983b9f5015CB6175451BF2445513d93b7fdaa6ecc9d508d16892c773f696582db4f91ac5ec6697bd34dbb6bc7dfc7306a97afc67f34dbb522799cb6b54a6535251c62f49254933e0f1502b1969b0c493a6d106c202bd8f193a380f6d58056831af3ae007e69e7aab6fc2c2e5451b8ef599dc52e5f24cd95582a",
+  "email" : "6c52efc22726e7521d3eea446711b96fe5a5015CB6175451BF297b6fd0d05bceade313d3aa3ee9769167807db20d110d35c5830b763463601bd715eca37c8dc58aa9be4e1a3383d62641295b6b5a441a68b5a2f73481e9969eda30da7e109f05a2071fb2f151d6e519e1689fbba4b8ddd71c3916e2870963e716752c4092684ec7364abbc118ad7e",
+  "title" : "Abbot",
+  "duties" : "Blue Collar",
+  "industry" : "Advertising/Public Relations/Marketing",
+  "annualIncome" : "$1,111,111,111.00",
+  "height" : "185",
+  "weight" : "65",
+  "medicalQuestion" : "No",
+  "erefCode" : "02064CODNH01",
+  "agentCode" : "02064",
+  "bankCode" : "D2C",
+  "totalName" : "qqq www",
+  "term" : "15",
+  "yearlyCashBenefit" : "Accumulate",
+  "sumAssured" : "$57,000.00",
+  "taxResidency" : [ {
+    "question" : "I am a tax resident of singapore only.",
+    "answer" : "Yes"
+  } ],
+  "residenceTravel" : [ ],
+  "generalDetails" : [ {
+    "question" : "Have you any prospect or intention of residing abroad for more than 3 months other than for holidays or studies?",
+    "answer" : "No"
+  }, {
+    "question" : "Are you currently engaged in or have you any intention of engaging in military or private flying other than as a passenger travelling solely for transport or engaging in hazardous pursuits such as scuba diving, mountain/rock climbing, free fall parachuting, sky diving, motor racing, etc?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you smoked any cigarettes in the past 12 months?",
+    "answer" : "No"
+  }, {
+    "question" : "Do you consume beer, wine or alcohol?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever taken narcotics, any habit forming drugs or have you ever been treated for drug or alcohol addiction?",
+    "answer" : "No"
+  }, {
+    "question" : "Proposer/joint proposer/ life assured/2nd adult life assured",
+    "answer" : "No"
+  }, {
+    "question" : "Others, please provide:",
+    "answer" : "No"
+  }, {
+    "question" : "Salary/commission/ trade income",
+    "answer" : "No"
+  }, {
+    "question" : "Others, please specify (e.g. rental income, inheritance, sales of assets, dividend payment and etc.)",
+    "answer" : "No"
+  }, {
+    "question" : "Salary/commission/ trade income",
+    "answer" : "No"
+  }, {
+    "question" : "Personal savings, please provide:",
+    "answer" : "No"
+  }, {
+    "question" : "Others, please specify (e.g. premium financing from bank, maturity proceeds and etc)",
+    "answer" : "No"
+  }, {
+    "question" : "Is/are there any beneficial owner(s) who is/are not the proposer/life assured/joint life assured?",
+    "answer" : "No"
+  }, {
+    "question" : "Is the proposer/life assured/joint life assured or any beneficial owner (“bo”) a pep?",
+    "answer" : "No"
+  }, {
+    "question" : "Is the proposer/life assured/joint life assured or any beneficial owner either a close associate or a family member of a pep?",
+    "answer" : "No"
+  } ],
+  "detailsOfPreviousPolicy" : [ {
+    "question" : "Do you have any medical insurance, personal accident, life or any other insurance policy(ies) with this or any other company?",
+    "answer" : "No"
+  }, {
+    "question" : "Do you have any application for or reinstatement of your life, critical illness, disability or health insurance policy pending or has it been withdrawn, deferred, declined or accepted at special rates or terms with this or any other office?",
+    "answer" : "No"
+  }, {
+    "question" : "Are you making or have you made any claims, including hospitalization claims, on any policy(ies) with this or any other office?",
+    "answer" : "No"
+  }, {
+    "question" : "Is this proposal intended to exercise conversion, increasibility or future insurance options on any policy(ies) listed below?",
+    "answer" : "No"
+  }, {
+    "question" : "Is this proposal to replace or intended to replace any policy(ies) with this or any other office?",
+    "answer" : "No"
+  } ],
+  "healthDeclarations" : [ {
+    "question" : "Have either of your natural parents or any siblings died or suffered from cancer, heart disease, stroke, high blood pressure, diabetes, kidney disease, mental disorder, dementia/alzheimer’s disease, parkinson's disease, tuberculosis, down's syndrome or any hereditary disease?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you consulted any doctor(s) in the last 3 years?",
+    "answer" : "No"
+  }, {
+    "question" : "In the past 5 years, have you had any tests done such as x-rays, ultrasound, ct scan, biopsy, electrocardiogram (ecg), blood or urine test?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had or been told to have or been treated for epilepsy, fits, stroke, paralysis, weakness of limb, prolonged headache, unconsciousness, nervous breakdown, depression or any other nervous/mental disorders?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had or been told to have or been treated for diabetes, thyroid disorders or any other endocrine disorders?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for ear discharge, nose bleeds, double vision, impaired sight, hearing or speech or any other disorders of ear, eye, nose or throat?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have or been treated for asthma, bronchitis, persistent cough, coughing with blood, pneumonia, tuberculosis, chest or breathing complaints/discomfort or any other lung disorders?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have or been treated for raised cholesterol, high blood pressure, heart attack, heart murmur, mitral valve prolapse or other heart valve disorders, breathlessness, irregular or fast heart rate, chest discomfort or pain, diseases of or any other disorders of the heart or blood vessels?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for gastritis, stomach or duodenal ulcer, blood in stools, fistulas, piles or any other stomach or bowel disorders?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for jaundice, hepatitis b carrier or any other form of hepatitis, liver disorder or gall bladder disorder?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for blood, protein or sugar in urine, kidney stones, infection or any other disorders of the kidney, bladder or genital organs, including urinary incontinence?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for slipped disc, gout, arthritis, osteoporosis (weak bones), fractured bones, pain or deformity or disorders of the muscles, bones, spine, limbs or joints or severe injury(ies)?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for cancer, tumour, cyst or growth of any kind?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for anaemia, any other disorders of the blood, advised to abstain from donating or received blood transfusion or blood products on account of haemophilia or any other reason?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for systemic lupus erythematosus, rheumatic fever, rheumatoid arthritis, kawasaki disease or any other disorders of the immune system?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or been treated for any other illness, disorder, injury, disability, operation or hospitalization not mentioned above?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you or your spouse (if applicable) been told to have, or have received any medical advise, counselling or treatment in connection with sexually transmitted disease, aids, aids related complex or any other aids related condition?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had hiv testing done for purposes other than pregnancy testing, singapore pr application and saf overseas military training?",
+    "answer" : "No"
+  }, {
+    "question" : "Do you belong, or have you ever belong, to any of the following aids high-risk groups established by the health authorities? (eg. haemophiliacs, intravenous (i.v.) drug users, bisexual, homosexual or sexual partners of the preceding groups)",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever in the last 3 months had any of the following symptoms for more than one week continuously: fatigue, weight loss, diarrhea, enlarged nodes or unusual skin lesions?",
+    "answer" : "No"
+  } ],
+  "ropStatement" : "No",
+  "taxReturnUS" : "No",
+  "bankName" : "PWC",
+  "accountNumber" : "12345",
+  "holderName" : "CWP",
+  "residenceQuestion" : "Have you resided outside Singapore continuously for 5 years or more preceding the date of proposal?",
+  "residenceAnswer" : "Yes",
+  "agentStatement" : "I would like a Financial Consultant to be assigned to assist me",
+  "employerName" : "testtt"
+}

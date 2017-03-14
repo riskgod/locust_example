@@ -1,0 +1,10 @@
+{
+  "reqType" : "PS",
+  "planCode" : "",
+  "occupationCode" : null,
+  "residencyCode" : "1",
+  "age" : 35,
+  "smoker" : false,
+  "selectedTerm" : "10",
+  "totalYearlyPremium" : "$545.00"
+}

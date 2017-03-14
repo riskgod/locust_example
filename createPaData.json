@@ -1,0 +1,33 @@
+{
+  "planName" : "Plan C",
+  "yearlyPrice" : "678.40",
+  "name" : "42e3b2f8d9ea8bc7e55cb5dbcd33f39bd82BF842159F839FBCB049592f533da17ca97d8a87155bbd7e9e46075e09b6813d282c80f46dbbb430482db73a180910733e1558a07beb7241abd69ff2cb7274f67250b161abfbb0db54eed068d489f84ab11407d900924b57cb6dbedf21f4d72a9883a7d7df6eff70bd1461edfe177b4b2b9504d651fb60",
+  "maritalStatus" : "Single",
+  "gender" : "Male",
+  "dob" : "1 Jan 1982",
+  "nric" : "4455d732404b66efa1590727c99cbafdd33BF842159F839FBCB6a2796c98e6051f479cd6268c3ff3b32b40b4d08d970f05d29ae472174c558ad39db960ac08f1a21d6d84b0d9a4be8ad33794bef4ea2c841ac0c54d2fd2e8abd04d13c50eea4029027b8c014d8e1e72c56c62b0d123f0d20d6a67aee8716c85cb107c9a0fd7a77d5174f9504b723f",
+  "nationality" : "Singaporean",
+  "countryOfBirth" : "Singapore",
+  "residence" : "Singaporean",
+  "address" : "8b859a99439e922fc9fbabf11e3ad939e27BF842159F839FBCBdc3565631468f56222b5644d8e44e7e27627c091a80495eed2cba3326193e904732709b7432a057c07df4803c563c6795bf1be66bc3589a2b4312a5db422fdfc0050a39be54f5e854ca0d687eb1d1f1a92b8a37681688a07dca2b7c45e2b44f9df010f55bd18dd671d888f886aa8c",
+  "billingAddress" : "03e22aff32e450bd2cb02d62af69646f0c5BF842159F839FBCB980c497c506b5304fe9ade5802f5b6385854a4a1c7ba8689a9f4cd4e2447b9bcf7b58eef3237bfb441d7e43b312c238da29650c7e11cd994a7703a725a2e2b279797f1c7acff46da3410e8d4dd02fb3aa27d52d7e4ce804c2831c45f3e01e77b60742077b1fcd8ef680dc0f3483cf",
+  "mobile" : "ab176765a2bde3b64fd8e78dba12ce37020BF842159F839FBCB35ddb68249d651a6de01cfd7c35eb12ac6fe0a0152103a9a8e9f7bd92ad482651da657557a4170661b33434382f64591700afe62a9604ae74956a706c91539e428a426c7c3fb3ac17c1b6a8006da14285f1dc4caf37af4de0b90ccf709c4327cf80df19202e2dc460b9fe20b03a97",
+  "email" : "739e5cd7a404e60fae1a2cbebc23a32f441BF842159F839FBCBb83ce18177147e83399786fb459350b4affe68c761c8b66a33d2b84f06d3258e968deb70313cd63d534bb565ef14d7f4acb682af834dbe0fd453fc85ae043533061a36e0e6c1c3a060830c0542cdc031e706f9d89f3ef4008b082799dd98f93694cccb63de58c9faf1ce53fa9465f",
+  "occupationClass" : "1-White Collar / Office Worker",
+  "title" : "Abbot",
+  "duties" : "Blue Collar",
+  "industry" : "Advertising/Public Relations/Marketing",
+  "annualIncome" : "$12,345,678.00",
+  "erefCode" : "18491CODNG02",
+  "agentCode" : "18491",
+  "bankCode" : "D2C",
+  "totalName" : "test te",
+  "benefit" : {
+    "medicalLabel" : "$300,000",
+    "medicalValue" : "Accidental Death and Dismemberment Benefit",
+    "traditionalLabel" : "$3,000",
+    "traditionalValue" : "Medical Reimbursement Benefit (per accident)",
+    "privateTransportLabel" : "$1,000",
+    "privateTransportValue" : "Traditional Chinese Medicine Benefit (per accident)"
+  }
+}

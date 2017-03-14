@@ -1,0 +1,76 @@
+{
+  "yearlyPrice" : "545.00",
+  "name" : "4a95b007f946784b2233273f9442fc5e1710FED326E17A94AF88ab7bf56359f9b5e45117a9b1024a1b36930b09f71e032c0928e47550b2465d34e6bb91b5e48b0b06570a787f12bfc53de0c6de73e1038c2c31abeecf7e9e32a9d9a7c856ccf11937feae9abeda513f28dca7b1943bfd943cee168aa9ca65dfe7541b7f2c5345f32e152e81c0e5f5",
+  "maritalStatus" : "Single",
+  "gender" : "Male",
+  "dob" : "1 Jan 1983",
+  "nric" : "63d37da2c2d8672cf5fd00c0bb625f0ad750FED326E17A94AF8635c34324093f53d2c8a3b7e5d6faa88c529dd2e15c274ff32c9fd236388073a9dfd7aaf9a1d0af7c9e098aa531cac4f8a4b006dec5cf954e1066c1fd8dc27cb9a5b190fe826cee710b26183129d7490096c30942f12f6fb2e9910ae8644c619c45fa047ed10fd75a8b39cf8bd8c1",
+  "nationality" : "Singaporean",
+  "countryOfBirth" : "Singapore",
+  "residence" : "Singaporean",
+  "address" : "0125adc39f3437b532d230ad1bb70acf3560FED326E17A94AF84f09445da769a416aa67efed890dfee54a3e8bf9d8a669b5ffe87a091f17d486b789b3e137ad8d48bb66917c2cc5d897cdef1de238179b78631e7df3e5fe258b4856291c4ea8b967ad2f887971ac12ee83d21e5fe122a0eb21e1be3df7207cffa7d450cf53f48ed585c8067c48088",
+  "billingAddress" : "93db6f7d3cd2a2e3f0b7ea0dc9af0c2c34f0FED326E17A94AF86b1f5e6463f5704fad45cf42036ee4e7d40b2d3c8c9201e5f6c14c009603c5cfe352ec99bb9070a4e332f082cbc086a5a3d436c2c8ca01df4f60c7557622f759ad76c4f63533b00794fb61cec4b201568c747f05aa20a8020d7d87600da4275056dd5e66576e6320f493e1c173741",
+  "mobile" : "05da895bda99219c3e92358c7bb0bc0904b0FED326E17A94AF83cabef7a8241eaf8ddae7b9c779e1b466429983939ce6ae4c676aa12738d8609cf3d22b5f7e85d7a42dccb4eb0f4272ec268bbb3a88b05dd1ef1c9586b83efb136c5904248c83299f8585b38777c6cc7e191428c1a600e465eddb5af925febd1661f121bc61ff66ab4da2c29c321e",
+  "email" : "5c5fb505ae1ac7c49d24492e50c49ec32a30FED326E17A94AF8a0fd7c926f3dffd4c5c020d3bd54c30e76a5da7b2c9b3110dfec2070882abea2ddda0593614bd405e129a30f53c8a36a7c6d2288ecc77b9b9c8aded77242a19823f39fbb87103264e3bff0aa05b2ad038f804b662b76d72325e4793f8d5f83f6d9a6df58539a3f7f1f1a64ae6e10d",
+  "title" : "Abbot",
+  "duties" : "Blue Collar",
+  "industry" : "Advertising/Public Relations/Marketing",
+  "annualIncome" : "$1,234,556.00",
+  "height" : "185",
+  "weight" : "65",
+  "question" : "No",
+  "erefCode" : "11905CODNG01",
+  "agentCode" : "11905",
+  "bankCode" : "D2C",
+  "totalName" : "test tes",
+  "healthDeclarations" : [ {
+    "question" : "Have you ever had, been told to have, or received treatment for stroke, high blood pressure, raised cholesterol, chest discomfort, heart valve disorders, breathlessness, irregular or fast heart rate or any disease or disorders of the heart or blood vessels?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for pneumonia, asthma, bronchitis, chest or breathing complaints, tuberculosis, persistent cough, coughing with blood, or any other lung disorders?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for ear discharge, nose bleeds, sinus problem, impaired sight, hearing or speech or any disease or disorders of eye, ear, nose or throat?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for diabetes, thyroid disorders, any form of hepatitis, blood, protein or sugar in urine, blood in stools, gastritis, stomach or duodenal ulcer, fistula, kidney stones, infection or any other disorders of the bladder, liver, kidneys, gall bladder, pancreas, intestines, stomach, digestive system or genital organs?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for epilepsy, fits, paralysis, prolonged headache, depression, or any other nervous/mental/psychiatric disorders or disabilities?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for congenital anomalies, gout, arthritis, osteoporosis, pain or deformity or disorders of the muscles, bones, spine, limbs or joints?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for anaemia or other disorders of the blood, systemic lupus erythematosus, or any other disorders of the immune system?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for cancer, tumour or growth of any kind, hiv infection or any sexually transmitted disease?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told to have, or received treatment for breast lumps, endometriosis, fibroids, irregular menstrual bleeding or abnormal pap smear results or any other gynaecological disorders (including the breasts)?",
+    "answer" : "No"
+  }, {
+    "question" : "In the past 5 years, have your had any tests done such as x-ray, ultrasound, ct scan, biopsy, electrocardiogram (ecg), blood or urine test or any tests carried out for investigative purpose?",
+    "answer" : "No"
+  }, {
+    "question" : "In the past 5 years, have you been admitted to a hospital or nursing home?",
+    "answer" : "No"
+  }, {
+    "question" : "In the past 5 years, have you consulted any doctor or specialist or been asked to take any medication for more than 2 weeks continuously?",
+    "answer" : "No"
+  }, {
+    "question" : "In the past 5 years, have you ever had pregnancy complication, including, but not limited to, ectopic pregnancy, pre-eclampsia, disseminated intravascular coagulation, late miscarriage (post first trimester)or still birth?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you in the last 6 months, had any of the following symptoms for more than 1 week continuously: fatigue, weight loss, diarrhoea, vomiting, giddiness, enlarged nodes or unusual skin lesions?",
+    "answer" : "No"
+  }, {
+    "question" : "Have you ever had, been told or received any treatment for any illness, disorder or disability not mentioned above in the past 5 years or has had persistent symptoms or treatment for more than 7 days or are you about to undergo any consultation, treatment or surgical procedure with any doctor or other health professional?",
+    "answer" : "No"
+  }, {
+    "question" : "Has any application for medical, hospitalization, accident or life insurance ever been declined, postponed or accepted at special rate/terms? if yes, please give details.",
+    "answer" : "No"
+  } ]
+}
+

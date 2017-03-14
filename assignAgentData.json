@@ -1,0 +1,64 @@
+{ "success" : true,
+  "message" : "",
+  "system" : {
+    "appVersion" : "1.0",
+    "appKey" : "1dly3X7a3O5Sq5ApPzWMzWQ2UK6J5JhRtXA9Quy8zxMajI5RWk",
+    "clientIP" : "10.163.170.158",
+    "appName" : "d2c",
+    "clientUdid" : "",
+    "isPayloadEncrypted" : false,
+    "encryptionKey" : ""
+  },
+  "payload" : {
+    "transactionId" : "201721219131llr",
+    "generatePDF" : false,
+    "selectedProducts" : {
+      "docId" : "PM1",
+      "prodCode" : "PM1",
+      "paymentMode" : "Y",
+      "totalPremium" : 0.0,
+      "totalHalfYearlyPremium" : 0.0,
+      "totalQuarterlyPremium" : 0.0,
+      "totalMonthlyPremium" : 0.0,
+      "totalYearlyPremium" : 545.0,
+      "components" : [ {
+        "compoCode" : "PMT1",
+        "isBasic" : true,
+        "isRequired" : false,
+        "lifeInsuredType" : "ML",
+        "term" : 10,
+        "benefitTerm" : 10,
+        "minPolicyTerm" : 10,
+        "premiumTerm" : 10,
+        "premium" : 545.0,
+        "yearlyPremium" : 545.0,
+        "sumAssured" : 0.0,
+        "compoDesc" : "",
+        "sequence" : 1
+      } ],
+      "selectedPolicyOption" : {
+        "isOptValueEditable" : false
+      }
+    },
+    "returnAgent" : "1",
+    "lifeProfile" : {
+      "name" : "test tes (Life Assured)",
+      "dob" : "12/03/1984",
+      "age" : 33,
+      "gender" : "M",
+      "smoker" : false,
+      "residentStatus" : "C",
+      "numberOfLife" : 1,
+      "clientType" : "ML",
+      "countryCode" : "SG",
+      "nric" : "t0119747e",
+      "proposal" : {
+        "isMailingAddressSameAsHomeAddress" : false,
+        "contact" : { }
+      },
+      "nationality" : "SNG",
+      "isSmoker" : false
+    },
+    "isExistingClient" : false
+  }
+}
