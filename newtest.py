@@ -30,70 +30,65 @@ with open('./vender/finalComputeAllData.json') as finalComputeAll:
 
 
 def webPageLoad(l):
-    r = l.client.get("/")
-    if json.loads((r.content))["result"] != 200:
-        r.failure("Got wrong response:"+r.content)
+    print(l);
+    r = l.client.get("/", verify=False)
 
 def getRandomAndRSAPublicKey(l):
-    r = l.client.get("/getRandomAndRSAPublicKey")
-    if json.loads((r.content))["result"] != 200:
-        r.failure("Got wrong response:"+r.content)
+    r = l.client.get("/getRandomAndRSAPublicKey", verify=False)
 
 def quotation(l):
-    r = l.client.post("/quotation", {"reqType":"PS", "occupationCode":"", "residencyCode":"1", "age":"1"})
-    if json.loads((r.content))["result"] != 200:
-        r.failure("Got wrong response:"+r.content)
+    r = l.client.post("/quotation", {"reqType":"PS", "occupationCode":"", "residencyCode":"1", "age":"1"}, verify=False)
         
 def assignAgent(l):
-    l.client.post("/assignAgent", assignAgentData)
+    l.client.post("/assignAgent", assignAgentData, verify=False)
 
 def finalQuotation(l):
-    l.client.post("/finalQuotation", finalQuotationData)    
+    l.client.post("/finalQuotation", finalQuotationData, verify=False)    
 
 def createPa(l):
-    l.client.post("/createPa", createPaData)    
+    l.client.post("/createPa", createPaData, verify=False)    
 
 def createPs(l):
-    l.client.post("/createPs", createPsData)
+    l.client.post("/createPs", createPsData, verify=False)
 
 def createPfc(l):
-    l.client.post("/createPfc", createPfcData)    
+    l.client.post("/createPfc", createPfcData, verify=False)    
 
 def submitEsub(l):
-    l.client.post("/submitEsub", submitEsubData)  
+    l.client.post("/submitEsub", submitEsubData, verify=False)  
 
 def computeAll(l):
-    l.client.post("/computeAll", {"age":"34", "gender":"M", "smoker":False, "selectedTerm":15, "selectedOptionCode":3, "selectedOptionVal": 2, "totalYearlyPremium": 6000, "sumAssured": 0.0})
+    l.client.post("/computeAll", {"age":"34", "gender":"M", "smoker":False, "selectedTerm":15, "selectedOptionCode":3, "selectedOptionVal": 2, "totalYearlyPremium": 6000, "sumAssured": 0.0}, verify=False)
 
 def fetchAppData(l):
-    l.client.post("/fetchAppData", {"erefNo": "11905CODNG01"})    
+    l.client.post("/fetchAppData", {"erefNo": "11905CODNG01"}, verify=False)    
 
 def occupationList(l):
-    l.client.post("/occupationList", { "reqType": "PA", "occupationCode": "1"})      
+    l.client.post("/occupationList", { "reqType": "PA", "occupationCode": "1"}, verify=False)      
 
 def occupationSpecial(l):
-    l.client.post("/occupationSpecial", { "occupationId": "APER"})  
+    l.client.post("/occupationSpecial", { "occupationId": "APER"}, verify=False)  
 
 def dropdowns(l):
-    l.client.post("/dropdowns", { "dropDownCode": "PFCOPT066"})  
+    l.client.post("/dropdowns", { "dropDownCode": "PFCOPT066"}, verify=False)  
 
 def financials(l):
-    l.client.post("/financials", { "dropDownCode": "OCB"})  
+    l.client.post("/financials", { "dropDownCode": "OCB"}, verify=False)  
 
 def addmail(l):
-    l.client.post("/addmail", addmailData)  
+    l.client.post("/addmail", addmailData, verify=False)  
 
 def postalcode(l):
-    l.client.post("/postalcode", { "postalCode": "649185" })  
+    l.client.post("/postalcode", { "postalCode": "649185" }, verify=False)  
 
 def makepayment(l):
-    l.client.post("/makepayment", {"amt":"6045.78", "ref":"03137CODNG01", "cur":"SGD", "returnUri":"/payment_return"})
+    l.client.post("/makepayment", {"amt":"6045.78", "ref":"03137CODNG01", "cur":"SGD", "returnUri":"/payment_return"}, verify=False)
 
 def finalComputeAll(l):
-    l.client.post("/finalComputeAll", finalComputeAllData)    
+    l.client.post("/finalComputeAll", finalComputeAllData, verify=False)    
 
 def uploadImage(l):
-    l.client.post("/uploadImage", data={'docfile': open('./vender/test.jpg', 'rb')})
+    l.client.post("/uploadImage", data={'docfile': open('./vender/test.jpg', 'rb')}, verify=False)
 
 
 class UserBehavior(TaskSet):
